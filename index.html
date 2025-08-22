@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Conceptos Básicos de Git</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+        h1 { color: #333366; }
+        h2 { color: #444; }
+        ul { background: #fff; padding: 20px; border-radius: 8px; }
+        code { background: #eee; padding: 2px 6px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Conceptos Básicos de Git</h1>
+    <h2>¿Qué es Git?</h2>
+    <p>
+        Git es un sistema de control de versiones distribuido que permite gestionar y registrar los cambios en archivos y proyectos de software.
+    </p>
+    <h2>Conceptos Clave</h2>
+    <ul>
+        <li>
+            <strong>Repositorio:</strong> Es el lugar donde se almacena el historial de cambios de un proyecto. Puede ser local o remoto.
+        </li>
+        <li>
+            <strong>Commit:</strong> Es un registro de los cambios realizados en el repositorio. Cada commit tiene un mensaje descriptivo.
+        </li>
+        <li>
+            <strong>Branch (Rama):</strong> Es una línea de desarrollo independiente. Permite trabajar en nuevas funcionalidades sin afectar la rama principal.
+        </li>
+        <li>
+            <strong>Merge:</strong> Es la acción de combinar los cambios de diferentes ramas en una sola.
+        </li>
+        <li>
+            <strong>Clone:</strong> Copia un repositorio remoto a tu máquina local.
+        </li>
+        <li>
+            <strong>Push:</strong> Envía los commits locales al repositorio remoto.
+        </li>
+        <li>
+            <strong>Pull:</strong> Descarga y fusiona los cambios del repositorio remoto al local.
+        </li>
+        <li>
+            <strong>Staging Area:</strong> Zona intermedia donde se preparan los archivos antes de hacer un commit.
+        </li>
+    </ul>
+    <h2>Comandos Básicos</h2>
+    <ul>
+        <li><code>git init</code>: Inicializa un nuevo repositorio.</li>
+        <li><code>git clone &lt;url&gt;</code>: Clona un repositorio remoto.</li>
+        <li><code>git status</code>: Muestra el estado de los archivos.</li>
+        <li><code>git add &lt;archivo&gt;</code>: Añade archivos al staging area.</li>
+        <li><code>git commit -m "mensaje"</code>: Guarda los cambios en el repositorio.</li>
+        <li><code>git push</code>: Envía los cambios al repositorio remoto.</li>
+        <li><code>git pull</code>: Descarga y fusiona cambios del remoto.</li>
+        <li><code>git branch</code>: Lista las ramas existentes.</li>
+        <li><code>git checkout &lt;rama&gt;</code>: Cambia de rama.</li>
+        <li><code>git merge &lt;rama&gt;</code>: Fusiona una rama con la actual.</li>
+    </ul>
+</body>
+</html>
